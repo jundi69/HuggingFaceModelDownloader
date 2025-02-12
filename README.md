@@ -21,13 +21,8 @@ git clone https://github.com/lxe/hfdownloader
 cd hfdownloader
 
 # Build for your platform
-make        # Build for all platforms
-make darwin # macOS only (AMD64, ARM64)
-make linux  # Linux only (AMD64)
-make arm    # ARM only (ARMv7, ARM64)
+make install-linux  # Linux only (AMD64)
 
-# Install locally (Unix-like systems)
-sudo make install
 ```
 
 For more build options, run `make help`.
