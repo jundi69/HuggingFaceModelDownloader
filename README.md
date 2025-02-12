@@ -21,6 +21,7 @@ git clone https://github.com/lxe/hfdownloader
 cd hfdownloader
 
 # Build for your platform
+sudo apt install golang
 make install-linux  # Linux only (AMD64)
 
 ```
